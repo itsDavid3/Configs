@@ -1,5 +1,5 @@
 <div align="left">
-  <img align="left" src="https://github.com/itsDavid3/Configs/assets/cat.png" alt="cat" width="60" height="70">
+  <img align="left" src="https://i.imgur.com/NcN1TmC.png" alt="cat" width="60">
 
   <h3 align="left">Config</h3>
   <p align="left">Config files for a bunch of stuff</p>
