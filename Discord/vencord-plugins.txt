@@ -1,0 +1,17 @@
+BetterGifAltText
+CallTimer
+CrashHandler
+ForceOwnerCrown
+ImageZoom
+MemberCount
+MessageClickActions
+NoF1
+NoReplyMention
+petpet
+PlainFolderIcon
+SearchReply
+ShikiCodeblocks
+SilentMessageToggle
+SpotifyCrack
+SpotifyShareCommands
+ViewIcons
