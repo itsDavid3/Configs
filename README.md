@@ -28,7 +28,7 @@
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Discord/Vencord</b>
-    <br/>Theme</p>
+    <br/>Theme, plugins</p>
 </div>
 
 <div align="left">
