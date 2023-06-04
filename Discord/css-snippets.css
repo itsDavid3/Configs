@@ -1,6 +1,8 @@
 /* Old Discord Font */
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
+/* Account Details Grid */
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 
 /* Disable activities, gift nitro and stickers buttons */
 [class^=callContainer-]
