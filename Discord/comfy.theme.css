@@ -881,7 +881,7 @@
 */
 :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 143px;
   right: 24px;
   background-color: transparent;
@@ -890,7 +890,6 @@
   padding-right: 12px !important;
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .section-28YDOf {
-  padding-bottom: 4px;
   z-index: 1;
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .userTagWithNickname-13lfvd {
@@ -982,7 +981,7 @@
   content: "";
   position: absolute;
   height: 25px;
-  width: 284px;
+  width: 277px;
   top: -24px;
   left: 0;
   z-index: 3;
