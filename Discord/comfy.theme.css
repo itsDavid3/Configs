@@ -623,14 +623,15 @@
   will-change: transform;
 }
 :root .unread-36eUEm {
-  top: 54%;
+  top: 5px;
   left: 5px;
   width: 6px;
-  height: 6px;
+  height: 12px;
   z-index: 1;
   background-color: var(--unread-color);
   border-radius: 10px;
 }
+/*
 :root .unread-36eUEm::before {
   content: "";
   position: absolute;
@@ -641,7 +642,7 @@
   z-index: 1;
   animation: var(--disable-animations), pulse 2s infinite;
   will-change: transform;
-}
+}*/
 :root .activityPanel-9icbyU,
 :root .container-1zzFcN {
   border-bottom: none;
