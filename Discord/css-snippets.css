@@ -1,48 +1,10 @@
 /* Old Discord Font */
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
-/* Account Details Grid */
-@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
-
-/* Disable activities, gift nitro and stickers buttons */
-[class^=callContainer-]
-[class^=row-]:not(:has([class^=voiceChannelEffectsContainer-])) { display: none; }
-
-[class^=callContainer-]
-[class^=listItems-] {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1ex;
-    justify-content: center;
-}
-
-[class^=callContainer-]
-[class^=bottomControls-]
-> div > div > [class^=buttonContainer-]:nth-child(3) { display: none; }
-
-[class^=actionButtons-]>:is(button:nth-child(3)) { display: none; }
-
-[class^=channelTextArea-]
-[class^=buttons-]>:is(
-  button:nth-child(1),
-  div:has([class^=sticker])) { display: none; }
-
 
 /* Account details redisign (broken) */
 /*@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
 
 
-/* Attachment X next to attacment */
+/* Attachment X next to attachment */
 .messageAttachmentNoJustify-lIzP9c { justify-self: start !important; }
-
-
-/* @ before usernames */
-:is(
-        [class*="userTagUsernameBase"],
-        [class*="username"][class*="discriminator"],
-        [class*="nameTag"]
-            [class*="subtext"]:has([class*="hoverRoll"])
-            [class*="hovered"],
-        [class*="nameTag"] [class*="subtext"]:not(:has([class*="hoverRoll"]))
-    )::before { content: "@"; }
