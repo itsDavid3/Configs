@@ -2461,6 +2461,30 @@
   color: var(--header-primary);
 }
 .theme-dark .theme-light:not(.userProfileOuter-2tQwNf) {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+
   --guild-header-text-shadow: 0 1px 1px hsl(var(--black-500-hsl)/0.4);
   --elevation-stroke: 0 0 0 1px hsl(var(--primary-900-hsl)/0.15);
   --elevation-low: 0 1px 0 hsl(var(--primary-900-hsl)/0.2),0 1.5px 0 hsl(var(--primary-860-hsl)/0.05),0 2px 0 hsl(var(--primary-900-hsl)/0.05);
@@ -2490,30 +2514,19 @@
   --shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 rgba(0,0,0,0.24));
   --shadow-top-low: 0 -1px 4px 0 rgba(0,0,0,0.14);
   --shadow-top-low-filter: drop-shadow(0 -1px 4px rgba(0,0,0,0.14));
-  --activity-card-background: var(--primary-700);
   --android-navigation-bar-background: var(--primary-830);
   --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
   --android-ripple: hsl(var(--white-500-hsl)/0.07);
   --background-accent: var(--primary-530);
-  --background-floating: var(--primary-800);
   --background-mentioned: hsl(var(--yellow-300-hsl)/0.1);
   --background-mentioned-hover: hsl(var(--yellow-300-hsl)/0.08);
   --background-message-automod: hsl(var(--red-400-hsl)/0.05);
   --background-message-automod-hover: hsl(var(--red-400-hsl)/0.1);
   --background-message-highlight: hsl(var(--brand-360-hsl)/0.08);
   --background-message-highlight-hover: hsl(var(--brand-360-hsl)/0.06);
-  --background-message-hover: hsl(var(--primary-900-hsl)/0.06);
-  --background-mobile-primary: var(--primary-600);
-  --background-mobile-secondary: var(--primary-630);
+
   --background-modifier-accent: hsl(var(--primary-500-hsl)/0.48);
-  --background-modifier-active: hsl(var(--primary-500-hsl)/0.48);
-  --background-modifier-hover: hsl(var(--primary-500-hsl)/0.3);
-  --background-modifier-selected: hsl(var(--primary-500-hsl)/0.6);
   --background-nested-floating: var(--primary-630);
-  --background-primary: var(--primary-600);
-  --background-secondary: var(--primary-630);
-  --background-secondary-alt: var(--primary-660);
-  --background-tertiary: var(--primary-700);
   --black: var(--black-500);
   --border-strong: hsl(var(--white-500-hsl)/0.16);
   --border-subtle: hsl(var(--white-500-hsl)/0.08);
@@ -2563,14 +2576,13 @@
   --button-positive-background-active: var(--green-530);
   --button-positive-background-disabled: var(--green-430);
   --button-positive-background-hover: var(--green-500);
-  --button-secondary-background: var(--primary-500);
+  --button-secondary-background: var(--blue-600);
   --button-secondary-background-active: var(--primary-400);
   --button-secondary-background-disabled: var(--primary-500);
   --button-secondary-background-hover: var(--primary-430);
   --channel-icon: var(--primary-400);
   --channel-text-area-placeholder: var(--primary-430);
   --channels-default: var(--primary-360);
-  --channeltextarea-background: var(--primary-560);
   --chat-background: var(--primary-600);
   --chat-border: var(--primary-700);
   --chat-input-container-background: var(--primary-600);
@@ -2582,9 +2594,7 @@
   --creator-revenue-info-box-border: var(--teal-400);
   --creator-revenue-locked-channel-icon: var(--teal-345);
   --creator-revenue-progress-bar: var(--teal-400);
-  --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6);
   --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3);
-  --deprecated-quickswitcher-input-background: var(--primary-400);
   --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3);
   --deprecated-store-bg: var(--primary-600);
   --deprecated-text-input-bg: var(--primary-700);
@@ -2615,7 +2625,6 @@
   --info-warning-background: hsl(var(--yellow-300-hsl)/0.1);
   --info-warning-foreground: var(--yellow-300);
   --info-warning-text: var(--white-500);
-  --input-background: var(--primary-700);
   --input-placeholder-text: var(--input-placeholder-text-dark);
   --interactive-active: var(--white-500);
   --interactive-hover: var(--primary-230);
@@ -2625,8 +2634,7 @@
   --logo-primary: var(--white-500);
   --mention-background: hsl(var(--brand-500-hsl)/0.3);
   --mention-foreground: var(--brand-260);
-  --modal-background: var(--primary-600);
-  --modal-footer-background: var(--primary-630);
+  --modal-footer-background: var(--primary);
   --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48);
   --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3);
   --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6);
@@ -2635,8 +2643,6 @@
   --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5);
   --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2);
   --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45);
-  --redesign-activity-card-background: var(--primary-560);
-  --redesign-activity-card-background-pressed: var(--primary-630);
   --redesign-activity-card-border: hsl(var(--white-500-hsl)/0.02);
   --redesign-button-danger-background: var(--red-430);
   --redesign-button-danger-pressed-background: var(--red-460);
@@ -2684,9 +2690,6 @@
   --redesign-only-background-sunken: var(--primary-800);
   --scrollbar-auto-scrollbar-color-thumb: var(--primary-730);
   --scrollbar-auto-scrollbar-color-track: var(--primary-630);
-  --scrollbar-auto-thumb: var(--primary-730);
-  --scrollbar-auto-track: var(--primary-630);
-  --scrollbar-thin-thumb: var(--primary-730);
   --scrollbar-thin-track: hsl(var(--black-500-hsl)/0);
   --spoiler-hidden-background: var(--primary-700);
   --spoiler-revealed-background: var(--primary-660);
@@ -2838,7 +2841,7 @@
     margin-top: 16px;
     font-weight: 700;
     font-size: 1.25rem;
-    line-height: 1.25;
+    line-height: 1.12;
     text-align: left;
 }
 .root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .header-1ffhsl > .tier2HeaderBackground-2XINxm {
