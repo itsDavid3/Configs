@@ -7,6 +7,10 @@
 * @donate to the original author https://ko-fi.com/nyria
 */
 
+/* Old font instead of the new ugly one */
+@import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
+
+
 
 @import url("https://nyri4.github.io/donators/donators.css");
 
