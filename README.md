@@ -33,7 +33,7 @@
 
 <div align="left">
     <img align="left" src="https://i.imgur.com/xONRVp9.png" alt="ApexLegends" width="45" height="45">
-    <b><p align="left">Apex Legends 2</b>
+    <b><p align="left">Apex Legends</b>
     <br/>Settings</p>
 </div>
 
