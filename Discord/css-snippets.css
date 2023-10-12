@@ -1,10 +1,5 @@
-/* Old Discord Font */
+/* Old Discord Font (don't use if you use my modified comfy theme)*/
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
-
-
-/* Account details redisign (broken) */
-/*@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
-
 
 /* Attachment X next to attachment */
 .messageAttachmentNoJustify-lIzP9c { justify-self: start !important; }
