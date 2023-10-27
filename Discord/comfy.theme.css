@@ -531,12 +531,12 @@
 }
 
 /* Better side bar (Omnibar by @dablulite)*/
-.guilds-2JjMmN {
+.guilds__2b93a {
   margin-bottom: 200px;
   box-sizing: border-box;
 }
 
-.container-1CH86i {
+.container__9f9f6 {
   position: absolute;
   bottom: 0;
   left: -72px;
@@ -549,53 +549,53 @@
   margin-bottom: 0;
 }
 
-.container-1CH86i>.flex-2S1XBF {
+.container__9f9f6>.flex_f5fbb7 {
   flex-direction: column;
 }
 
-.sidebar-1tnWFu,
-.base-2jDfDU,
+.sidebar_ded4b5,
+.base__3e6af,
 .panels__58331 {
   overflow: visible !important;
 }
 
-.base-2jDfDU {
+.base__3e6af {
   width: calc(100% - 72px);
 }
 
-.container-1CH86i .avatarWrapper-12uuu4 .svg-1G_H_8 .avatar-31d8He {
+.container__9f9f6 .avatarWrapper_ba5175 .svg-1G_H_8 .avatar__991e2 {
   border-radius: 50%;
   transition: .2s !important;
 }
 
-.container-1CH86i .avatarWrapper-12uuu4:hover .svg-1G_H_8 .avatar-31d8He {
+.container__9f9f6 .avatarWrapper_ba5175:hover .svg-1G_H_8 .avatar__991e2 {
   border-radius: 10px !important;
 }
 
-.container-1CH86i .avatarWrapper-12uuu4 .nameTag-2Q56-H {
+.container__9f9f6 .avatarWrapper_ba5175 .nameTag__0e320 {
   display: none;
 }
 
-.container-1CH86i .avatarWrapper-12uuu4 .avatar-19siqs {
+.container__9f9f6 .avatarWrapper_ba5175 .avatar-19siqs {
   width: 18px !important;
   height: 18px !important;
 }
 
-.container-1CH86i .svg-1G_H_8 {
+.container__9f9f6 .svg-1G_H_8 {
   width: 43px !important;
   height: 43px !important;
 }
 
-.container-1CH86i .svg-1G_H_8> :is(svg, .pointerEvents__33f6a) {
+.container__9f9f6 .svg-1G_H_8> :is(svg, .pointerEvents__33f6a) {
   display: none;
 }
 
-.container-1CH86i .svg-1G_H_8,
-.container-1CH86i .svg-1G_H_8>foreignObject {
+.container__9f9f6 .svg-1G_H_8,
+.container__9f9f6 .svg-1G_H_8>foreignObject {
   mask: none !important;
 }
 
-.container-1CH86i .button-ejjZWC {
+.container__9f9f6 .button_afdfd9 {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -604,7 +604,7 @@
   background: var(--bg-over, var(--background-primary));
 }
 
-.container-1CH86i .button-ejjZWC:hover {
+.container__9f9f6 .button_afdfd9:hover {
   width: 48px;
   height: 48px;
   border-radius: 10%;
@@ -1196,7 +1196,7 @@
 }
 
 /* Hides the annoying nitro button on profile banner */
-.premiumIconWrapper-32h0Ri {
+.premiumIconWrapper__83620 {
   display: none;
 }
 
@@ -1221,16 +1221,16 @@
   white-space: unset;
 }*/
 
+.usernameSection__53868 {
+  z-index: 1;
+}
+
 :root .userText-1_v2Cq {
   padding-top: 8px;
 }
 
 :root .userPopoutOuter_d739b2 .profileBadges__7a7cb:empty+.userPopoutOverlayBackground_d8afa4 .nickname__3d1d7 {
   top: 20px;
-}
-
-:root .userPopoutOuter_d739b2 .pronouns__8bcdb {
-  padding-top: 12px;
 }
 
 :root .userPopoutOuter_d739b2 .profileBadges__7a7cb {
@@ -1245,10 +1245,7 @@
   padding-right: 12px !important;
 }
 
-:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .section__6f61e {
-  padding-top: 0;
-  padding-bottom: 12px;
-}
+
 
 /* Put @ before usernames */
 :is([class*="userTagUsernameBase"],
@@ -1270,8 +1267,12 @@
 
 
 /* Hides the message box on profiles */
-.messageInputContainer-24qqTx {
+.messageInputContainer__768e6 {
   display: none;
+}
+
+.section__76155 {
+  padding: 3px;
 }
 
 /***************/
