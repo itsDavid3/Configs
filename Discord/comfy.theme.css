@@ -107,18 +107,24 @@
 }
 
 .container_ca50b9 .button_afdfd9:hover {
-  width: 48px;
-  height: 48px;
   border-radius: 10%;
   transition: .2s;
-  --bg-over: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--bg-over, var(--background-primary));
+  background-color: var(--brand-experiment);
+  color: var(--interactive-active);
 }
 
 .container__590e2,
 .privateChannels__93473 {
   border-top-left-radius: 8px;
   overflow: hidden;
+}
+
+.container_ca50b9:has(.flex_f5fbb7 .button_afdfd9:nth-of-type(4)) {
+  height: calc(227px + 56px) !important;
+}
+
+.guilds__2b93a:has(~ .base__3e6af .container_ca50b9 .flex_f5fbb7 .button_afdfd9:nth-of-type(4)) {
+  margin-bottom: calc(227px + 56px) !important;
 }
 
 /*******************/
@@ -1244,19 +1250,23 @@
 }
 
 :root .userText-1_v2Cq {
-  padding-top: 8px;
+  padding-top: 5px;
 }
 
 :root .userPopoutOuter_d739b2 .profileBadges__7a7cb:empty+.userPopoutOverlayBackground_d8afa4 .nickname__3d1d7 {
   top: 20px;
 }
 
+:root .userPopoutOuter_d739b2 .pronouns__8bcdb {
+  padding-top: 5px;
+}
+
 :root .userPopoutOuter_d739b2 .profileBadges__7a7cb {
   position: absolute;
-  top: 97px;
-  left: 18px;
+  top: 86px;
+  right: 8px;
   z-index: 1;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 :root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .scroller__83262 {
@@ -1270,7 +1280,7 @@
   [class*="username"][class*="discriminator"],
   [class*="nameTag"] [class*="subtext"]:has([class*="hoverRoll"]) [class*="hovered"],
   [class*="nameTag"] [class*="subtext"]:not(:has([class*="hoverRoll"])))::before {
-  content: "@";
+  content: "@ ";
 }
 
 
@@ -1294,7 +1304,6 @@
 }
 
 /***************/
-
 
 :root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .divider__2bbbc {
   display: none;
