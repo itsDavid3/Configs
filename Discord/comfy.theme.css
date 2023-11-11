@@ -103,7 +103,7 @@
   border-radius: 50%;
   transition: .2s;
   --bg-over: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--bg-over, var(--background-primary));
+  background: var(--bg-over, var(--background-primary)) !important; 
 }
 
 .container_ca50b9 .button_afdfd9:hover {
