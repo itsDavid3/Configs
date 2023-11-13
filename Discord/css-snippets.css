@@ -13,7 +13,7 @@ button[aria-label="Open sticker picker"]
 
 /* 
 * Hides the useless and ugly [+] next to categories.
-* (if u have chanel creation perms) 
+* (if u have channel creation perms) 
 */
 :root .children_d4d259 {
   display: none;
