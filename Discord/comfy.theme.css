@@ -1,11 +1,10 @@
-/*
+/**
 * @name Comfy++
-* @Original author: Nyria#3863
-* @Changed and tweaked by itsDavid3
-* @description Stay comfy while talking to your friends
+* @author Nyria#3863
+* @description Modified, changed and tweaked by itsDavid3
 * @invite rtBQX5D3bD
 * @version 2.4.2
-* @donate to the original author https://ko-fi.com/nyria
+* @donate https://ko-fi.com/nyria
 */
 @import url("https://nyri4.github.io/donators/donators.css");
 
@@ -66,12 +65,13 @@
 }
 
 .container_ca50b9 .avatarWrapper_ba5175 .svg_f5b652 .avatar__991e2 {
-  border-radius: 50%;
+  border-radius: 25px;
   transition: .2s !important;
 }
 
 .container_ca50b9 .avatarWrapper_ba5175:hover .svg_f5b652 .avatar__991e2 {
-  border-radius: 10px !important;
+  border-radius: 10px;
+  transition: .2s;
 }
 
 .container_ca50b9 .avatarWrapper_ba5175 .nameTag__0e320 {
@@ -79,8 +79,8 @@
 }
 
 .container_ca50b9 .avatarWrapper_ba5175 .avatar_f8541f {
-  width: 18px !important;
-  height: 18px !important;
+  width: 43px !important;
+  height: 43px !important;
 }
 
 .container_ca50b9 .svg_f5b652 {
@@ -103,11 +103,11 @@
   border-radius: 50%;
   transition: .2s;
   --bg-over: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--bg-over, var(--background-primary)) !important; 
+  background: var(--bg-over, var(--background-primary)) !important;
 }
 
 .container_ca50b9 .button_afdfd9:hover {
-  border-radius: 10%;
+  border-radius: 10px;
   transition: .2s;
   background-color: var(--brand-experiment);
   color: var(--interactive-active);
@@ -127,25 +127,15 @@
   margin-bottom: calc(227px + 56px) !important;
 }
 
-/*******************/
-
-:root .buttons__3766a {
-  transition: opacity 150ms;
-}
 
 :root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175 {
   position: fixed;
-  bottom: 26.5px;
-  left: 327.5px;
+  bottom: 25px;
+  left: 324.5px;
   z-index: 2;
   margin: 0;
   padding: 0;
   min-width: unset;
-}
-
-:root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175>.avatar_f8541f {
-  width: 40px !important;
-  height: 40px !important;
 }
 
 :root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175>.avatar_f8541f>svg {
@@ -157,20 +147,18 @@
   height: 100% !important;
 }
 
-:root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175>.avatar_f8541f .pointerEvents__33f6a {
-  x: 31px;
-  y: 31px;
-  ry: var(--status-radius);
-  width: 12px;
-  height: 12px;
-}
-
 :root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175>.avatar_f8541f:hover {
   opacity: 1;
 }
 
 :root .panels__58331>.container_ca50b9>.avatarWrapper_ba5175>.avatar_f8541f+.nameTag__0e320 {
   display: none;
+}
+
+/*******************/
+
+:root .buttons__3766a {
+  transition: opacity 150ms;
 }
 
 :root .content__4bf10> :nth-child(2):not(.chat__52833),
@@ -1821,7 +1809,13 @@
 }
 
 :root .closeButton__34341 {
-  border-radius: 5px;
+  border-radius: 25px;
+  transition: .2s;
+}
+
+:root .closeButton__34341:hover {
+  border-radius: 10px;
+  transition: .2s;
 }
 
 :root .keybind__57645 {
@@ -2428,7 +2422,13 @@
 }
 
 :root .bottomControls__8bd89 .centerButton__3205b {
-  border-radius: 7px;
+  border-radius: 25px;
+  transition: .2s;
+}
+
+:root .bottomControls__8bd89 .centerButton__3205b:hover {
+  border-radius: 10px;
+  transition: .2s;
 }
 
 :root .bottomControls__8bd89 .colorable_c84c4c.primaryDark__6b700 {

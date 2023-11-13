@@ -3,3 +3,18 @@
 
 /* Attachment X next to attachment */
 .messageAttachmentNoJustify-lIzP9c { justify-self: start !important; }
+
+/* Hide annoying buttons (gift nitro and stickers) */
+button[aria-label="Send a gift"],
+button[aria-label="Open sticker picker"]
+{
+    display: none;
+}
+
+/* 
+* Hides the useless and ugly [+] next to categories.
+* (if u have chanel creation perms) 
+*/
+:root .children_d4d259 {
+  display: none;
+}
