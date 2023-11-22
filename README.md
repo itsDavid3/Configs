@@ -52,7 +52,7 @@
     <img align="left" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Team_Fortress_2_style_logo.svg" alt="TF2" width="45" height="45">
     <b><p align="left">Team Fortress 2</b><br>
     Download: "custom" folder from <a target="_blank" rel="noopener noreferrer" href="https://www.mediafire.com/file/nlcge0yrw98fy3n/custom.zip/file">here</a>, "cfg" folder.<br>
-    Put everything in ..\steamapps\common\Team Fortress 2\tf\</p>
+    Put both folders in ..\steamapps\common\Team Fortress 2\tf\</p>
 </div>
 
 <div align="left">
