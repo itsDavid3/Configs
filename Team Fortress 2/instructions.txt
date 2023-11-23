@@ -1,4 +1,0 @@
-- "download-mods.txt" contains a link where you can download my "custom" folder,
-- "cfg" folder contains, well, my config files,
-
-After you're done downloading the "custom" folder and the "cfg" folder, put both of those folders in "\steamapps\common\Team Fortress 2\tf".
