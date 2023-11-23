@@ -1,3 +1,12 @@
+/**
+* @name Comfy++ MAIN
+* @author Nyria#3863 (Modded by itsDavid3)
+* @description Main code for Comfy++
+* @invite rtBQX5D3bD
+* @version 2.4.2
+* @donate https://ko-fi.com/nyria
+*/
+
 @import url("https://nyri4.github.io/donators/donators.css");
 
 
@@ -20,7 +29,7 @@
 
 
 /* 
-* Windows buttons 
+* Replace Windows buttons
 */
 /*
 .winButton__88672:not(:last-child)>svg {
@@ -75,7 +84,6 @@
 }
 */
 /*****************************/
-
 
 :root .buttons__3766a {
   transition: opacity 150ms;

@@ -9,13 +9,12 @@
 
 @import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/main.css";
 
-/* ═══════『 Info 』═══════
-*
+/* ═══════『 Info 』══════════════
 *   ➥ This is a custom modified theme of "Comfy" by Nyria#3863 to suit my personal design preferences.
+*  ══════════════════════════════
 */
 
-
-/* ═══════『 ⚠️・Important tips 』═══════
+/* ═══════『 ⚠️・Important tips 』════════════════════════════
 *
 *   ➥ To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
 *      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
@@ -23,46 +22,63 @@
 *   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledge of CSS.
 *
 *   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
+*
+*  ═══════『 Important tips 』═════════════════════════════
 */
 
 
-/* ═══════『 🚫 ・ No scrollbars 』═══════ */
-/*  Comment the line below if you want the scrollbar back */
+
+
+/* ═════════════════════『 🟢 ・ Customization 』════════════════════════════
+*   ℹ️ : Bellow I've given you some options to customize this theme to how you like it.
+*  ═════════════════════『 🟢 ・ Customization 』════════════════════════════ */
+
+
+
+/* ═══════『 💨 ・ Scrollbars 』═══════ 
+*   ➥ This module hides the scrollbar.
+*   ➥ Uncomment the line below if you don't want the scrollbar.
+*/
 /* @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; */
 
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』═══════ */
-/*  Comment the line below if you don't want this spotify bar */
+/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』═══════ 
+*   ➥ This module enables a better SpotifyControls (plugin) seek bar.
+*   ➥ Uncomment the line below if you want a better seek bar.
+*/
 /* @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css"; */
 
 
-/* ═══════『 🎵 ・ Vencord Spotify Plugin 』═══════ */
-/*  Comment the line below if you don't want this spotify bar FOR VENCORD */
+/* ═══════『 🎵 ・ Vencord Spotify Plugin 』═══════
+*   ➥ This module enables a better SpotifyControls (plugin) seek bar FOR VENCORD.
+*   ➥ Uncomment the line below if you want a better seek bar.
+*/
 /* @import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css"; */
 
 
-/* ═══════『 🎵 ・ User Buttons 』═══════ */
-/*  Comment the line below if you don't want to revert them to the old style */
+/* ═══════『 ⚙️ / 🎤 / 🎧 ・ ・ User Buttons 』═══════
+*   ➥ Comment the line below if you want to revert them to the old style.
+*/
 @import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/UserButtons.css";
 
 
-/* ═══════『 🎵 ・ Message Box 』═══════ */
-/*
-*   ➥ This hides the message box on profile popout
-*   ➥ Comment the lines below if you want to return it
+/* ═══════『 📜 ・ Message Box 』═══════ 
+*   ➥ This hides the message box on profile popout.
+*   ➥ Comment the lines below if you want to return it.
 */
 .messageInputContainer__768e6, .section__76155 {
   display: none;
-  padding: 3px
+  padding: 3px;
 }
 /* ════════════════════════════════════ */
 
 
 :root {
+
   /* ═══════『 💨 ・ Animations 』═══════ */
   /* 
-  *  If you don't want a high CPU usage, comment the line below 
-  *  Default: 2s channel-unread infinite
+  *   ➥ If you don't want a high CPU usage, comment the line below .
+  *   ➥ Default: 2s channel-unread infinite.
   */
   --disable-animations: 2s channel-unread infinite;
   /* ═══════════════════════════════════ */
@@ -72,7 +88,6 @@
   /*
   *   ➥ A higher value means more space between the icons and a lower ...
   */
-
   /* Spacing (Default: 8px) */
   --user-buttons-spacing: 8px;
 
@@ -81,13 +96,12 @@
   /* ══════════════════════════════════════════════ */
 
 
-  /* ═══════『 ⭕ Roundness settings 』═══════ */
+  /* ═══════『 ⭕ ・ Roundness settings 』═══════ */
   /*
   *    ➥ A higher value means more rounded corners and a lower ...
   *       0 ➜ Square
   *       25 ➜ Circle
   */
-
   /* Avatars (Default: 5px) */
   --avatar-radius: 25px;
 
@@ -99,20 +113,20 @@
   /* ══════════════════════════════════════════ */
 
 
-  /* ═══════『 😃 Colored emoji picker 』═══════
-  *  Change the value to "100%" if you want the default one */
+  /* ═══════『 😃 ・ Colored emoji picker 』═══════
+  *  Change the value to "0%" if you want color. */
   --colored-emoji: grayscale(100%);
   /* ══════════════════════════════════════════ */
 
 
-  /* ═══════『 📜 Server/channel list 』═══════ */
+  /* ═══════『 📜 ・ Server/channel list 』═══════ */
   /* Mention - Default value : #F04747 */
   --mention-color: #f04747;
 
   /* Unread - Default value : #7289DA */
   --unread-color: #7289da;
 
-  /*  『 🔴 Mention colors in chat 』 */
+  /* ═══════『 🔴 ・ Mention colors in chat 』═══════ */
 
   /* Bar on the right (Default: #C66262) */
   --mention-color-bar: #c66262;
@@ -122,23 +136,23 @@
 
   /* On hover (Default: #C6626226) */
   --mention-color-hover: #c6626226;
-  /* ══════════════════════════════════════════ */
+  /* ═════════════════════════════════════════════ */
 
 
-  /* ═══════『 💬 Chat buttons 』═══════ */
+  /* ═══════『 💬 ・ Chat buttons 』═══════ */
   /* Default: #7289DA */
   --chat-buttons: #7289da;
   /* ═══════════════════════════════════ */
 
 
-  /* ═══════『 💬 SpotifyControls seek bar 』═══════
+  /* ═══════『 💬 ・ SpotifyControls seek bar 』═══════ 
   * ℹ️ : Requires the "SpotifyControls" plugin
   * Default: #1EDC62 */
   --spotify-color: #1edc62;
   /* ══════════════════════════════════════════════ */
 
 
-  /* ═══════『 🟢 Status 』═══════ */
+  /* ═══════『 🟢 ・ Status 』═══════ */
   /* Online (Default: #43B581) */
   --online: #43b581;
 
@@ -156,7 +170,7 @@
   /* ═════════════════════════════ */
 
 
-  /* ═══════『 🔰 User popout 』═══════ */
+  /* ═══════『 🔰 ・ User popout 』═══════ */
   /* Playing wave color */
   --playing: #7289da;
 
@@ -168,10 +182,11 @@
   /* ══════════════════════════════════ */
 
 
-  /* ═══════『 🗑️ Discord logo 』═══════
+  /* ═══════『 🗑️ ・ Discord logo 』═══════
   * Set it to "block" if you still want it */
   --discord-logo: none;
   /* ══════════════════════════════════ */
+
 }
 
 

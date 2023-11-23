@@ -1,8 +1,32 @@
-/*
-* Omnibar by @dablulite 
+/**
+* @name Omnibar++
+* @author @dablulite (Modded by itsDavid3)
+* @description A combined Guild bar and User area
 * https://github.com/DaBluLite/css-snippets/tree/master/Omnibar
-* Modified by itsDavid3 
 */
+
+/* Animations */
+:root .wrapper__3af0b:hover {
+  --server-radius: 10px;
+  transition: .2s;
+}
+
+.container_ca50b9 .button_afdfd9 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: .2s;
+  --bg-over: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+  background: var(--bg-over, var(--background-primary)) !important;
+}
+
+.container_ca50b9 .button_afdfd9:hover {
+  border-radius: 10px;
+  transition: .2s;
+  background-color: var(--brand-experiment);
+  color: var(--interactive-active);
+}
+/* **** */
 
 .guilds__2b93a {
   margin-bottom: 200px;
@@ -67,22 +91,6 @@
 .container_ca50b9 .svg_f5b652,
 .container_ca50b9 .svg_f5b652>foreignObject {
   mask: none !important;
-}
-
-.container_ca50b9 .button_afdfd9 {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  transition: .2s;
-  --bg-over: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--bg-over, var(--background-primary)) !important;
-}
-
-.container_ca50b9 .button_afdfd9:hover {
-  border-radius: 10px;
-  transition: .2s;
-  background-color: var(--brand-experiment);
-  color: var(--interactive-active);
 }
 
 .container__590e2,
