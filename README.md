@@ -4,12 +4,12 @@
     Config files for a bunch of stuff
 </div>
 
-<br><br>
+<br>
 
 » [Socials](https://withkoji.com/@itsDavid)
     ·
 [Big Rat](https://bigrat.monster/)
-
+<br><br>
 
 ## 📃 List of items
 <div>
