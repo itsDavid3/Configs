@@ -5,9 +5,21 @@ I've also added and changed some stuff in a way that I think looks better.
 
 
 ## 📥 Installation
-* Discord Settings > Themes > Online Themes > paste <code>https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/comfy.theme.css</code> into the box
+* Discord Settings > Themes > Online Themes > paste `https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/comfy.theme.css` into the box
 * Or put "comfy.theme.css" in Discord Settings > Themes > Local Themes > Open Themes Folder
 
+
+## 🖌️ Vencord
+Below is a table of every plugin I use. <br>
+For css snippets check out the "css-snippets.css" file.
+
+| BetterGifAltText | CallTimer | CopyUserURLs | FavoriteEmojiFirst | ShikiCodeblocks |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| BetterNotesBox (hide notes) | CrashHandler | FakeNitro | FixSpotifyEmbeds (5.69%) | ShowTimeouts |
+| ForceOwnerCrown | ImageZoom | MemberCount | MessageClickActions | SilentMessageToggle |
+| MessageLinkEmbeds | MutualGroupDMs | NoDevtoolsWarning | NoF1 | SpotifyCrack |
+| NoReplyMention | NoUnblockToJump | OpenInApp | PermissionsViewer | SpotifyShareCommands |
+| ViewerIcons | PinDMs | PlainFolderIcon | SearchReply | ValidUser |
 
 
 ## 📃 Customization
