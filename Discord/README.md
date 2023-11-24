@@ -46,6 +46,7 @@ The options are :
 * Hidable Discord logo
 <br>
 
-![lol](https://github.com/itsDavid3/Configs/assets/58404459/6fc03172-6f25-402b-bfd0-48312e49f4c1)
+
+https://github.com/itsDavid3/Configs/assets/58404459/fee78f69-3b71-42f6-b338-cc392e37988d
 
 ⚠️ - Hidden notes box, the permissions tab under the roles, and folder icons is because of a plugin NOT THEME.
