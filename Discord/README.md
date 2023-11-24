@@ -47,6 +47,6 @@ The options are :
 <br>
 
 
-https://github.com/itsDavid3/Configs/assets/58404459/fee78f69-3b71-42f6-b338-cc392e37988d
+https://github.com/itsDavid3/Configs/assets/58404459/5e7bd4e5-8ff6-4450-8ed8-838ff37c7323
 
 ⚠️ - Hidden notes box, the permissions tab under the roles, and folder icons is because of a plugin NOT THEME.
