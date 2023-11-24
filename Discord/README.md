@@ -30,7 +30,7 @@ The options are :
 * Better SpotifyControls seek bar
 * Better User Buttons
 * Animations:
-    * To disable all animations you'll have edit "UserButtons.css"
+    * Note: To disable all animations you'll have to edit "UserButtons.css"
 * Hidable Message Box
 * Avatar/status/servers Roundness
 * Colors:
