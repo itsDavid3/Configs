@@ -2,6 +2,8 @@
 This is a fork of "[Comfy](https://github.com/Comfy-Themes/Discord)" by [Nyria](https://github.com/NYRI4) made to fix some issues that the original theme had.
 <br>
 I've also added and changed some stuff in a way that I think looks better.
+<br>
+I use exclusively the dark theme so light theme is not fully supported, but in my very limited testing I think it works fine. 
 
 
 ## 📥 Installation
