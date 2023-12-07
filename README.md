@@ -53,7 +53,7 @@
 <div>
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b>Vencord</b><br>
-    Discord Settings > Themes > Online Themes > paste <code>https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/comfy.theme.css</code> into the box <br>
+    Discord Settings > Themes > Online Themes > paste <code>https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/comfy.theme.css</code> into the box <br>
     <strong>Or</strong> upload "comfy.theme.css" in Discord Settings > Themes > Local Themes > Open Themes Folder
 </div>
 <br>
