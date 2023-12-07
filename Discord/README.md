@@ -7,7 +7,7 @@ I use exclusively the dark theme so light theme is not fully supported, but in m
 
 
 ## 📥 Installation
-* Discord Settings > Themes > Online Themes > paste `https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/theme/comfy.theme.css` into the box
+* Discord Settings > Themes > Online Themes > paste `https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/comfy.theme.css` into the box
 * Or put "comfy.theme.css" in Discord Settings > Themes > Local Themes > Open Themes Folder
 
 
