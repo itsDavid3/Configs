@@ -2058,7 +2058,7 @@
 }
 
 :root .contentWidth_b55791 {
-  max-width: unset;
+  max-width: 95%;
 }
 
 :root .contentWidth_b55791 .previewContainer_d2b616 {
@@ -2362,10 +2362,6 @@
   overflow: hidden;
 }
 
-:root .menu_dc52c6 .scroller__750f5 {
-  padding: 0;
-}
-
 :root .menu_dc52c6 .scroller__750f5 .separator__18122 {
   display: none;
 }
@@ -2657,7 +2653,6 @@
 
 :root .wrapperSimple_a34580,
 :root .wrapper__3af0b foreignObject,
-:root .folderIconWrapper__72239,
 :root .expandedFolderBackground__1bec6,
 :root .flexChild__6e093 .avatarUploaderInner__63001 {
   border-radius: var(--server-radius);
@@ -2665,14 +2660,6 @@
 
 :root .iconInactive__90d40 {
   border-radius: calc(var(--server-radius) - 4px);
-}
-
-:root .wrapper__3af0b foreignObject {
-  transition: border-radius 200ms;
-}
-
-:root .wrapper__3af0b:hover foreignObject {
-  border-radius: calc(var(--server-radius) - 3px);
 }
 
 :root .container-2nx-BQ,
@@ -2894,4 +2881,12 @@
 :root .root-8LYsGj .UserBackgrounds-banner-container .UserBackgrounds-banner-badge {
   top: 13px;
   right: 50px;
+}
+
+:root .mainTableContainer__5ffe0 {
+  min-width: 100%;
+}
+
+:root .icon_ef4486 {
+  display: none;
 }
