@@ -63,6 +63,13 @@
 @import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/UserButtons.css";
 
 
+/* ═══════『 ⚙️ ・ Old style icons 』═══════
+*   ➥ This module revert Discord's new icons to the older style used from 2019-2023.
+*   ➥ Comment the line below if you want the new icons.
+*/
+@import url("https://raw.githubusercontent.com/MrDiamondDog/noUglyIconsTheme/master/theme.css");
+
+
 /* ═══════『 📜 ・ Message Box 』═══════ 
 *   ➥ This hides the message box on profile popout.
 *   ➥ Comment the lines below if you want to return it.
