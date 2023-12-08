@@ -7,8 +7,19 @@ I use exclusively the dark theme so light theme is not fully supported, but in m
 
 
 ## 📥 Installation
-* Discord Settings > Themes > Online Themes > paste `https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/comfy.theme.css` into the box
-* Or put "comfy.theme.css" in Discord Settings > Themes > Local Themes > Open Themes Folder
+<div>
+    <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
+    <b>Vencord</b><br>
+    Discord Settings > Themes > Online Themes > paste <code>https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/comfy.theme.css</code> into the box <br>
+    <strong>Or</strong> upload "comfy.theme.css" in Discord Settings > Themes > Local Themes > Open Themes Folder
+</div>
+<br>
+
+<div>
+    <img align="left" src="https://camo.githubusercontent.com/0347fe2a5b0bb38d5e561b074b3af7c7ce6df2ea0c0cf8cd540976b28c25a143/68747470733a2f2f692e696d6775722e636f6d2f4c50483035454f2e706e67" alt="BetterDiscord" width="45" height="45">
+    <b>BetterDiscord</b><br>
+    Upload "comfy.theme.css" into Discord Settings > Themes > Themes folder
+</div>
 
 
 ## 🖌️ Vencord
