@@ -17,15 +17,181 @@
 
 
 /*
-* Account Details Grid by @dablulite 
+* Account Details Grid by @DaBluLite
 */
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 
 
 /*
-* Better Status Picker by @dablulite 
+* Better Status Picker by @DaBluLite
 */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+
+/*
+* BetterProfiles by @SEELE1306
+*/
+.customStatus__3aa7f .customStatusEmoji__00639 {
+  margin: 4px -12px 8px;
+  position: relative;
+  left: 50%;
+  float: none;
+  border-radius: 4px;
+}
+
+.customStatus__3aa7f .customStatusEmoji__00639.customStatusSoloEmoji__24b58 {
+  position: relative;
+  left: 42.5%;
+}
+
+.defaultColor__77578.eyebrow_e5a66c.defaultColor__87d87.title_ef4a6d {
+  justify-content: center;
+  display: flex;
+}
+
+.pronouns__8bcdb,
+.pronouns_be950a {
+  text-transform: none;
+  color: var(--text-normal);
+  font-size: 16px;
+  font-weight: 800;
+  padding: 4px 6px;
+  margin: 4px 0 0 0;
+  border-radius: 4px;
+  max-width: 90%;
+  overflow: hidden;
+  background: linear-gradient(45deg, var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
+  background-size: 200% 200%;
+}
+
+.profileBannerPremium__9ca8f {
+  margin: 12px auto auto;
+  width: calc(100% - 24px);
+  height: calc(100px - 24px) !important;
+  min-height: 188px !important;
+  border-radius: 8px;
+}
+
+.popoutBannerPremium__942db {
+  margin: 8px auto auto;
+  width: calc(100% - 16px) !important;
+  height: calc(100px - 16px) !important;
+  min-height: 106px !important;
+  border-radius: 4px;
+}
+
+.scroller__83262 {
+  padding: 6px 12px;
+}
+
+.section__6f61e>div,
+.userInfoText__5f822 {
+  padding: 8px;
+}
+
+.scrollerSeparator__321f3 {
+  box-shadow: none;
+}
+
+.container_b6b15b {
+  margin: 0 12px;
+  padding: 16px;
+}
+
+.usernameSection__53868>div {
+  width: calc(100% - 16px);
+}
+
+.section__6f61e>div,
+.mutualGuildsList__6e961,
+.mutualFriendsList__632b5,
+.container_b6b15b,
+.userInfoText__5f822 {
+  background: var(--profile-body-background-color);
+  border-radius: 4px;
+}
+
+.memberSinceContainer__0a28b {
+  justify-content: center
+}
+
+[class^=userPopoutOverlayBackground_],
+[class^=userProfileModalOverlayBackground__] {
+  background: transparent
+}
+
+:is(.section__6f61e, .userInfoSection__1daf8) .eyebrow_f53856 {
+  text-transform: none;
+  font-size: 14px;
+  display: block;
+  text-align: center
+}
+
+.activityUserPopoutV2__32328 .headerText__7d203,
+.activityProfileV2__4de28 .headerText__7d203 {
+  text-transform: none;
+  font-size: 14px;
+}
+
+[style^="-webkit-line-clamp: 6"] {
+  display: block;
+}
+
+[class^=userProfileModalOverlayBackground__]>[class^=body_] {
+  flex: 0 1 500px;
+}
+/* *** */
+
+/* 
+* Jump To Present Bar Revamp by @ukrioo
+*/
+[class*="jumpToPresentBar"] {
+  display: contents;
+}
+
+[class*="jumpToPresentBar"] > button:first-child {
+  display: none;
+}
+
+[class*="jumpToPresentBar"] > button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: var(--background-accent);
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+
+[class*="jumpToPresentBar"] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #FFFFFF;
+  transition: margin .6s;
+}
+
+[class*="jumpToPresentBar"]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: font-size .2s, color .2s .1s, padding .4s;
+}
+
+[class*="jumpToPresentBar"]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+/* *** */
 
 
 /* 
@@ -207,13 +373,6 @@
   height: 100%;
   background-color: var(--brand-experiment);
   border-radius: inherit;
-}
-
-:root .jumpToPresentBar__0ff7f,
-:root .jumpToPresentBar__0ff7f:active {
-  margin-bottom: 13px;
-  border-radius: 20px;
-  padding: 0;
 }
 
 :root .autocompleteRow_a20cfa {
@@ -2372,7 +2531,7 @@
 
 :root .item__183e8 {
   margin: 0;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-radius: 0;
   transition: 150ms;
 }
@@ -2804,6 +2963,7 @@
 :root .header__60bef,
 :root .emptyPage__3e15d,
 :root .scrollerContainer_bf5dbd,
+:root .directoryContainer_d3edd9,
 :root .container__7590f,
 :root .background_cb0a80,
 :root .container_df3aa0 {
