@@ -1262,25 +1262,6 @@
 
 /***************/
 
-/* :root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .usernameSection__53868>.copiableNameTag__6b220>.clickTarget__440f0,
-:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .usernameSection__53868>div>.userText__3e8b7 {
-  position: absolute;
-  top: 25px;
-  left: 115px;
-  z-index: 1;
-  max-width: 200px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-}
-
-:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .usernameSection__53868>.copiableNameTag__6b220>.clickTarget__440f0>span,
-:root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .usernameSection__53868>div>.userText__3e8b7>span {
-  word-break: unset;
-  white-space: unset;
-}*/
-
 .usernameSection__53868 {
   z-index: 1;
 }
@@ -1302,13 +1283,11 @@
   top: 86px;
   right: 8px;
   z-index: 1;
-  /* background-color: transparent; */
 }
 
 :root .userPopoutOuter_d739b2 .userPopoutOverlayBackground_d8afa4 .scroller__83262 {
   padding-right: 12px !important;
 }
-
 
 
 /* Put @ before usernames */
@@ -2530,6 +2509,13 @@
 }
 
 :root .item__183e8 {
+  margin: 0;
+  padding: 10px 10px;
+  border-radius: 0;
+  transition: 150ms;
+}
+
+:root .scroller__750f5 > .item__183e8 {
   margin: 0;
   padding: 5px 10px;
   border-radius: 0;
