@@ -58,6 +58,6 @@ The options are :
 <br>
 
 
-https://github.com/itsDavid3/Configs/assets/58404459/5e7bd4e5-8ff6-4450-8ed8-838ff37c7323
+![Desktop discord theme preview](https://github.com/itsDavid3/Configs/assets/58404459/eae0cc9e-5601-4d3e-a799-01b56f108a4c)
 
 ⚠️ - Hidden notes box, the permissions tab under the roles, and folder icons is because of a plugin NOT THEME.
