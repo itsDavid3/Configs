@@ -18,3 +18,8 @@ button[aria-label="Open sticker picker"]
 :root .children_d4d259 {
   display: none;
 }
+
+/* Hide user voice channel status */
+:root .icons__10dd7 {
+  display: none;
+}
