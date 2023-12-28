@@ -20,6 +20,6 @@ button[aria-label="Open sticker picker"]
 }
 
 /* Hide user voice channel status */
-:root .icons__10dd7 {
+:root .hangStatusIcon__10ffc {
   display: none;
 }
