@@ -1,5 +1,5 @@
 # Comfy++
-This is a fork of "[Comfy](https://github.com/Comfy-Themes/Discord)" by [Nyria](https://github.com/NYRI4) made to fix some issues that the original theme had.
+This is a fork of "[Comfy](https://github.com/Comfy-Themes/Discord)" by [kyrie25](https://github.com/kyrie25) & [ohitstom](https://github.com/ohitstom) made to fix some issues that the original theme had.
 <br>
 I've also added and changed some stuff in a way that I think looks better.
 <br>
@@ -16,7 +16,7 @@ I use exclusively the dark theme so light theme is not fully supported, but in m
 <br>
 
 <div>
-    <img align="left" src="https://camo.githubusercontent.com/0347fe2a5b0bb38d5e561b074b3af7c7ce6df2ea0c0cf8cd540976b28c25a143/68747470733a2f2f692e696d6775722e636f6d2f4c50483035454f2e706e67" alt="BetterDiscord" width="45" height="45">
+    <img align="left" src="https://camo.githubusercontent.com/ee60ae9852354c1eff79d1f5db5fbd2ea2ab836c3f9dc0c027f0d68906dec389/68747470733a2f2f692e696d6775722e636f6d2f4c50483035454f2e706e67" alt="BetterDiscord" width="45" height="45">
     <b>BetterDiscord</b><br>
     Upload "comfy.theme.css" into Discord Settings > Themes > Themes folder
 </div>

@@ -59,7 +59,7 @@
 <br>
 
 <div>
-    <img align="left" src="https://camo.githubusercontent.com/0347fe2a5b0bb38d5e561b074b3af7c7ce6df2ea0c0cf8cd540976b28c25a143/68747470733a2f2f692e696d6775722e636f6d2f4c50483035454f2e706e67" alt="BetterDiscord" width="45" height="45">
+    <img align="left" src="https://camo.githubusercontent.com/ee60ae9852354c1eff79d1f5db5fbd2ea2ab836c3f9dc0c027f0d68906dec389/68747470733a2f2f692e696d6775722e636f6d2f4c50483035454f2e706e67" alt="BetterDiscord" width="45" height="45">
     <b>BetterDiscord</b><br>
     Upload "comfy.theme.css" into Discord Settings > Themes > Themes folder
 </div>
