@@ -7,6 +7,7 @@ I use exclusively the dark theme so light theme is not fully supported, but in m
 
 
 ## 📥 Installation
+I recommend looking through "comfy.theme.css". I tried to make this theme as modular as I can and give the user options.
 <div>
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b>Vencord</b><br>
@@ -42,8 +43,6 @@ The options are :
 * Hidable Scrollbars
 * Better SpotifyControls seek bar
 * Better User Buttons
-* Animations:
-    * Note: To disable all animations you'll have to edit "UserButtons.css"
 * Hidable Message Box
 * Avatar/status/servers Roundness
 * Colors:

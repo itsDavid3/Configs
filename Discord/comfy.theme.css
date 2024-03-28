@@ -10,7 +10,7 @@
 @import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/main.css";
 
 /* ═══════『 Info 』══════════════
-*   ➥ This is a custom modified theme of "Comfy" by Nyria#3863 to suit my personal design preferences.
+*   ➥ This is a fork of "Comfy" by @kyrie25 & @ohitstom made to suit my personal design preferences.
 *  ══════════════════════════════
 */
 
@@ -82,17 +82,7 @@
 
 
 :root {
-
-  /* ═══════『 💨 ・ Animations 』═══════ */
-  /* 
-  *   ➥ If you don't want a high CPU usage, comment the line below .
-  *   ➥ ⚠️ - This doesn't disable all animations. Button roundness animation is in the "Better User Buttons" css file.
-  *   ➥ Default: 2s channel-unread infinite.
-  */
-  --disable-animations: 2s channel-unread infinite;
-  /* ═══════════════════════════════════ */
-
-  
+ 
   /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════ */
   /*
   *   ➥ A higher value means more space between the icons and a lower ...
