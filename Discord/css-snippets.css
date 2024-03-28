@@ -1,9 +1,3 @@
-/* Old Discord Font (not needed if you use my theme)*/
-@import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
-
-/* Attachment X next to attachment */
-.messageAttachmentNoJustify-lIzP9c { justify-self: start !important; }
-
 /* Hide annoying buttons (gift nitro and stickers) */
 button[aria-label="Send a gift"],
 button[aria-label="Open sticker picker"]
@@ -13,13 +7,29 @@ button[aria-label="Open sticker picker"]
 
 /* 
 * Hides the useless and ugly [+] next to categories.
-* (if u have channel creation perms) 
+* (if u have chanel creation perms) 
 */
-:root .children_d4d259 {
+:root .children_d18c7d {
   display: none;
 }
 
-/* Hide user voice channel status */
-:root .hangStatusIcon__10ffc {
+/* simple list hover animations (by @refact0r) */
+.wrapper__612a5 .link_ddbb36 /* channels */,
+.container_a48b21 /* members */,
+.channel__0aef5 /* dms */,
+.side_b4b3f6 .item__48dda /* settings */ {
+    transition: margin-left 0.2s ease;
+}
+.wrapper__612a5:hover .link_ddbb36,
+.side_b4b3f6 .item__48dda:hover {
+    margin-left: 10px;
+}
+.container_a48b21:hover,
+.channel__0aef5:hover {
+    margin-left: 18px;
+}
+
+/* Hides the annoying "NEW" badge for the shop */
+.textBadge_f05120{
   display: none;
 }

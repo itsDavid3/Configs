@@ -74,7 +74,7 @@
 *   ➥ This hides the message box on profile popout.
 *   ➥ Comment the lines below if you want to return it.
 */
-.messageInputContainer__768e6, .section__76155 {
+.messageInputContainer_a93946, .lastSection__62986{
   display: none;
   padding: 3px;
 }
