@@ -1,17 +1,13 @@
 /* Hide annoying buttons (gift nitro and stickers) */
 button[aria-label="Send a gift"],
 button[aria-label="Open sticker picker"]
-{
-    display: none;
-}
+{ display: none; }
 
 /* 
 * Hides the useless and ugly [+] next to categories.
 * (if u have chanel creation perms) 
 */
-:root .children_d18c7d {
-  display: none;
-}
+:root .children_d18c7d { display: none; }
 
 /* simple list hover animations (by @refact0r) */
 .wrapper__612a5 .link_ddbb36 /* channels */,
@@ -30,6 +26,5 @@ button[aria-label="Open sticker picker"]
 }
 
 /* Hides the annoying "NEW" badge for the shop */
-.textBadge_f05120{
-  display: none;
-}
+.newBadge__5fcc2 { display: none; }
+.shyButton__30111 { background: none; }
