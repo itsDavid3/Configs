@@ -3016,7 +3016,7 @@
   transition: margin-left 400ms ease;
 }
 
-:root .sidebar_e031be.hideChannelElement .avatarWrapper__500a6 {
+:root .sidebar_e031be .hideChannelElement .avatarWrapper__500a6 {
   margin-left: -240px;
 }
 
@@ -3036,3 +3036,12 @@
 :root .icon__3aa8e {
   display: none;
 }
+
+:root .mainContainer_c5e1e2 {
+  display: none;
+}
+
+:root .button_ae40a4[aria-checked="true"] .contents__322f4 .lottieIcon_c7076c svg {
+  background: var(--status-danger);
+}
+
