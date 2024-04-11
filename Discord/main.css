@@ -3045,3 +3045,10 @@
   background: var(--status-danger);
 }
 
+:root .answerInner_b97752 {
+  background-color: var(--background-primary);
+}
+
+:root .container__0bd59 {
+  background-color: var(--background-secondary);
+}
