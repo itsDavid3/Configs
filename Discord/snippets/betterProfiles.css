@@ -1,0 +1,325 @@
+/**
+* @name Better Profiles
+* @author SEELE1306 (Modded by itsDavid3)
+* @authorLink https://github.com/SEELE1306
+* @description Improves general layout of user profiles, improving readability and visual appeal.
+* @version 1.0.1
+*/
+
+/* [[ PROFILES ]] */
+.customStatus__3aa7f {
+  &::before {
+    content: "Current status";
+    font-weight: 800;
+    color: var(--text-muted);
+    display: block;
+  }
+  & .customStatusEmoji__00639 {
+    margin: 4px -12px 8px;
+    position: relative;
+    left: 50%;
+    float: none;
+    border-radius: 4px;
+
+    &.customStatusSoloEmoji__24b58 {
+      position: relative;
+      left: 42.5%;
+    }
+  }
+}
+
+.userProfileModalOverlayBackground_a5b043  {
+  height: 650px;
+}
+
+.defaultColor__77578.eyebrow_e5a66c.defaultColor__8610e.title__392bc {
+  justify-content: center;
+  display: flex;
+}
+
+.pronouns__8aa38,
+.pronouns__3d468 {
+  text-transform: none;
+  color: var(--text-normal);
+  font-size: 16px;
+  font-weight: 800;
+  padding: 4px 6px;
+  margin: 4px 0 0 0;
+  border-radius: 4px;
+  max-width: 90%;
+  overflow: hidden;
+  background: linear-gradient(
+    45deg,
+    var(--profile-gradient-primary-color),
+    var(--profile-gradient-secondary-color)
+  );
+  background-size: 200% 200%;
+}
+
+.profileBannerPremium__6fb42 {
+  margin: 12px auto auto;
+  width: calc(100% - 24px);
+  height: calc(100px - 24px) !important;
+  min-height: 188px !important;
+  border-radius: 8px;
+}
+
+.popoutBannerPremium__84487 {
+  margin: 8px auto auto;
+  width: calc(100% - 16px) !important;
+  height: calc(100px - 16px) !important;
+  min-height: 106px !important;
+  border-radius: 4px;
+}
+
+.scroller_f9a667 {
+  padding: 6px 12px;
+}
+
+.section__62b44 > div:not(.roles__74a2b),
+.userInfoText_b87307 {
+  padding: 8px;
+}
+
+.scrollerSeparator_d8843a {
+  box-shadow: none;
+}
+
+.section__62b44.usernameSection_dd6196 {
+  margin-bottom: 8px;
+}
+
+.container__9f51c {
+  margin: 0 12px;
+  padding: 16px;
+}
+
+.usernameSection_dd6196 > div {
+  width: calc(100% - 16px);
+}
+
+.section__62b44 > div,
+.mutualGuildsList__5e9f3,
+.mutualFriendsList__02caf,
+.container__9f51c,
+.userInfoText_b87307 {
+  background: var(--profile-body-background-color);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* Put @ before usernames */
+:is([class*="userTagUsernameBase"],
+  [class*="username"][class*="discriminator"],
+  [class*="nameTag"] [class*="subtext"]:has([class*="hoverRoll"]) [class*="hovered"],
+  [class*="nameTag"] [class*="subtext"]:not(:has([class*="hoverRoll"])))::before {
+  content: "@ ";
+}
+
+
+[class*=accountProfilePopoutWrapper-]>div>div>[class*=userPopoutOverlayBackground-]>div:nth-child(1),
+[class*=accountProfilePopoutWrapper-]>div>div>[class*=userPopoutOverlayBackground-]>div:nth-child(2),
+[class*=accountProfilePopoutWrapper-]>div>div>[class*=userPopoutOverlayBackground-]>div:nth-child(3),
+[class*=accountProfilePopoutWrapper-] div[role=separator] {
+  display: none;
+}
+
+/* remove border in modal connections */
+.userInfoSection_e816c1 + .userInfoSection_e816c1 {
+  border-top: none;
+}
+
+/* Hides the annoying nitro button on profile banner */
+.premiumIconWrapper__7793e {
+  display: none;
+}
+
+/* fix badge list height */
+.profileBadges__1f2ab.container_ed2af4 {
+  min-height: fit-content;
+  margin-right: 10px;
+}
+
+:is(.userPopoutInner_ac0960, .userInfoText_b87307) .blockquoteContainer__66aaa {
+  justify-content: center;
+}
+
+.userPopoutInner_ac0960 .markup_a7e664 a,
+.userInfoText-2MFCmH.markup_a7e664 a,
+.timestamp_ff7119 {
+  background: var(--background-modifier-accent);
+  color: var(--text-link);
+  font-weight: bold;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+:is(
+    .userPopoutInner_ac0960 .markup_a7e664 a,
+    .userInfoText-2MFCmH.markup_a7e664 a,
+    .timestamp_ff7119
+  ):hover {
+  background: var(--background-modifier-hover);
+  text-decoration: none;
+}
+
+.tabBarContainer_b283be {
+  margin: 20px 0 0;
+  border: none;
+}
+
+.tabBar__35f81 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+  column-gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tabBarItem_ce14f3 {
+  border: none;
+  background: color-mix(
+    in srgb,
+    var(--profile-body-background-color) 40%,
+    transparent
+  );
+  padding: 2px 0;
+  width: 31%;
+  height: fit-content;
+  border-radius: 4px;
+  text-align: center;
+
+  &:hover {
+    background: color-mix(
+      in srgb,
+      var(--profile-body-background-color) 70%,
+      transparent
+    ) !important;
+  }
+
+  &.selected_a523ff {
+    background: color-mix(
+      in srgb,
+      var(--profile-body-background-color) 100%,
+      transparent
+    );
+  }
+}
+
+.item__48dda:hover,
+.selected_a523ff.item__48dda {
+  border: none;
+}
+
+.divider__979dc {
+  background: var(--profile-body-divider-color);
+}
+
+.platformIcon_a2d873 {
+  margin: 2px 2px;
+}
+
+.scroller__18a89 {
+  left: 12.5%;
+}
+
+.userProfileOuterUnthemed__9741c .userPanelInner__3184c {
+  background: transparent !important;
+}
+
+.profilePanel_e2cafe .userPanelInner__3184c {
+  border-radius: 8px;
+}
+
+.connectedAccountContainer__5972d {
+  border-width: 2px;
+}
+
+.connectedAccountContainer__5972d:has(.connectedAccountOpenIcon__23b1a:hover) {
+  background: var(--profile-body-divider-color);
+}
+
+.flowerStarContainer__00f61.connectedAccountVerifiedIcon__103a6 > svg > path {
+  fill: var(--profile-body-divider-color);
+  filter: brightness(1) contrast(2);
+}
+
+:is(.userPopoutInner_ac0960, .profilePanel_e2cafe) [class*="divider_"] {
+  background: transparent;
+  border-color: transparent;
+}
+
+.userInfoSection_e816c1 .eyebrow_b3f8ba:last-child, /* Notes in profile modal */
+.section__62b44:has(.roles__74a2b:empty), /* no roles */
+[class*=userPanelInner_]::before
+.aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
+  display: none !important;
+}
+
+.divider__126d2 {
+  display: none;
+}
+
+/* fixes */
+[class^="userPopoutOverlayBackground_"],
+[class^="userProfileModalOverlayBackground__"] {
+  background: transparent;
+}
+
+:is(.section__62b44, .userInfoSection_e816c1) .eyebrow_b3f8ba {
+  text-transform: none;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+
+.activityUserPopoutV2__89098 .headerText_c0138d,
+.activityProfileV2_f5335f .headerText_c0138d {
+  text-transform: none;
+  font-size: 14px;
+}
+
+[style^="-webkit-line-clamp: 6"] {
+  display: block;
+}
+
+[class^="userProfileModalOverlayBackground__"] > [class^="body_"] {
+  flex: 0 1 500px;
+}
+
+.profileMutuals__95dc2,
+.scrollerBase__65223 > .section__62b44:nth-child(1) {
+  display: none;
+}
+
+#account .submenu_aed9ee {
+  background-color: var(--background-secondary-alt);
+}
+
+/* Fix profile in customization section */
+.profileCustomizationSection_c4a87a {
+  & .section__62b44 {
+    &.container__1c2eb {
+      justify-content: center;
+
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Add back ReviewDB */
+div[style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;"],
+.vc-rdb-view {
+  padding: 4px 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  background: var(--profile-body-background-color);
+}
+
+.vc-rdb-view .wrapper__4e6b6 {
+  scale: 0.825;
+}
