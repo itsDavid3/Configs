@@ -10,7 +10,7 @@
 @import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/main.css";
 
 /* ═══════『 Info 』══════════════
-*   ➥ This is a fork of "Comfy" by @kyrie25 & @ohitstom made to suit my personal design preferences.
+*   ➥ This is a fork of "Comfy" theme by @kyrie25 & @ohitstom made to suit my personal design preferences.
 *  ══════════════════════════════
 */
 
@@ -23,15 +23,28 @@
 *
 *   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
 *
-*  ═══════『 Important tips 』═════════════════════════════
+*  ════════════════════════════════════════════════════════════
 */
 
 
 
 
 /* ═════════════════════『 🟢 ・ Customization 』════════════════════════════
-*   ℹ️ : Bellow I've given you some options to customize this theme to how you like it.
-*  ═════════════════════『 🟢 ・ Customization 』════════════════════════════ */
+*   ℹ️ : Below I've given you some options to customize this theme to how you like it.
+*/
+
+
+/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』═══════ 
+*   ➥ This module enables a better SpotifyControls (plugin) seek bar.
+*   ➥ Uncomment the line below if you want a better seek bar.
+*/
+/* @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css"; */
+
+/* ═══════『 🎵 ・ Vencord Spotify Plugin 』═══════
+*   ➥ This module enables a better SpotifyControls (plugin) seek bar FOR VENCORD.
+*   ➥ Uncomment the line below if you want a better seek bar.
+*/
+/* @import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css"; */
 
 
 
@@ -42,32 +55,56 @@
 /* @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; */
 
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』═══════ 
-*   ➥ This module enables a better SpotifyControls (plugin) seek bar.
-*   ➥ Uncomment the line below if you want a better seek bar.
-*/
-/* @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css"; */
-
-
-/* ═══════『 🎵 ・ Vencord Spotify Plugin 』═══════
-*   ➥ This module enables a better SpotifyControls (plugin) seek bar FOR VENCORD.
-*   ➥ Uncomment the line below if you want a better seek bar.
-*/
-/* @import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css"; */
-
-
 /* ═══════『 ⚙️ / 🎤 / 🎧 ・ Better User Buttons 』═══════
 *   ➥ Comment the line below if you want to revert them to the old style.
-*   ➥ If you want to remove the animations download the file, delete the animation code, enable the file in themes alongside with comfy++, and comment the line below.
 */
-@import "https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/UserButtons.css";
+@import url("https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/snippets/OmniBar.css");
 
 
-/* ═══════『 ⚙️ ・ Old style icons 』═══════
+/* ═══════『  🛵・ Old style icons 』═══════
 *   ➥ This module revert Discord's new icons to the older style used from 2019-2023.
-*   ➥ Comment the line below if you want the new icons.
+*   ➥ Comment the lines below if you want the new icons.
 */
-@import url("https://raw.githubusercontent.com/MrDiamondDog/noUglyIconsTheme/master/theme.css");
+@import url("https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css");
+
+
+/* ═══════『  🅱️・ Old style font 』═══════
+*   ➥ This module revert Discord's new font to the one they used previously.
+*   ➥ Comment the line below if you want the new font.
+*/
+@import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
+
+
+/* ═══════『  📑・ Account Details Grid 』═══════ 
+*   ➥ Made by @DaBluLite
+*   ➥ This modules make the account details in settings be a grid instead of a list.
+*   ➥ Comment the line below if you want to return back to a list.
+*/
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
+
+
+/* ═══════『  🗿・ Better Status Picker 』═══════ 
+*   ➥ Made by @DaBluLite
+*   ➥ This modules make the status text appear once you hover over.
+*   ➥ Comment the line below if you want to return back to default.
+*/
+@import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+
+
+/* ═══════『  😫・ Better Profiles 』═══════ 
+*   ➥ Made by @SEELE1306
+*   ➥ This modules make profiles look nicer.
+*   ➥ Comment the line below if you want to return back to default.
+*/
+@import url("https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/snippets/betterProfiles.css");
+
+
+/* ═══════『  ⭕・ Revamped Windows Buttons 』═══════ 
+*   ➥ Made by @Nyria
+*   ➥ This modules replaces the minmize, maximize and close buttons
+*   ➥ Uncomment the line below if you like the look.
+*/
+/* @import url("https://raw.githubusercontent.com/itsDavid3/Configs/main/Discord/snippets/winButton.css"); */
 
 
 /* ═══════『 📜 ・ Message Box 』═══════ 
@@ -76,38 +113,26 @@
 */
 .messageInputContainer_a93946, .lastSection__62986{
   display: none;
-  padding: 3px;
 }
+
 /* ════════════════════════════════════ */
 
 
 :root {
  
-  /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════ */
-  /*
-  *   ➥ A higher value means more space between the icons and a lower ...
-  */
-  /* Spacing (Default: 8px) */
-  --user-buttons-spacing: 8px;
-
-  /* Color (Default: #096DC0) */
-  --user-buttons-color: #096dc0;
-  /* ══════════════════════════════════════════════ */
-
-
   /* ═══════『 ⭕ ・ Roundness settings 』═══════ */
   /*
   *    ➥ A higher value means more rounded corners and a lower ...
   *       0 ➜ Square
   *       25 ➜ Circle
   */
-  /* Avatars (Default: 5px) */
+  /* Avatars (Default: 25px) */
   --avatar-radius: 25px;
 
-  /* Status (Default: 3px) */
+  /* Status (Default: 25px) */
   --status-radius: 25px;
 
-  /* Servers (Default: 8px) */
+  /* Servers (Default: 25px) */
   --server-radius: 25px;
   /* ══════════════════════════════════════════ */
 
@@ -223,4 +248,7 @@
   --background-modifier-hover: #262b41;
   --background-modifier-active: #262b41;
   --modal-background: var(--background-primary);
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
 }

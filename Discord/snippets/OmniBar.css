@@ -5,7 +5,7 @@
 * https://github.com/DaBluLite/css-snippets/tree/master/Omnibar
 */
 
-:root { --server-radius: 25px; }
+/* :root { --server-radius: 25px; } */
 
 /* Animations */
 :root .wrapper__9916c foreignObject {
@@ -35,7 +35,7 @@
 }
 
 .container_debb33 .avatarWrapper__500a6 .svg_a6bf1c .avatar__991e2 {
-  border-radius: 25px;
+  border-radius: var(--avatar-radius);
   transition: .2s !important;
 }
 
@@ -59,9 +59,8 @@
   height: 227px;
   width: 72px;
   flex-direction: column;
-  padding: 0;
-  gap: 7px;
-  padding-top: 7px;
+  padding: 7px 0 0;
+  gap: 8px;
   box-sizing: border-box;
   margin-bottom: 0;
 }
@@ -110,7 +109,7 @@
   right: -4.5px;
   width: 18px;
   height: 18px;
-  border-radius: 25px;
+  border-radius: var(--avatar-radius);
   background-color: var(--background-tertiary) !important;
 }
 
@@ -120,7 +119,7 @@
 }
 
 .container_debb33>.flex_f18b02 {
-  gap: 7px;
+  gap: 8px;
 }
 
 .container__7e23c,

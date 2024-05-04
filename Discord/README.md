@@ -27,24 +27,30 @@ I recommend looking through "comfy.theme.css". I tried to make this theme as mod
 Below is a table of every plugin I use. <br>
 For css snippets check out the "css-snippets.css" file.
 
-| BetterGifAltText | CallTimer | CopyUserURLs | FavoriteEmojiFirst | ShikiCodeblocks |
+| BetterNotesBox (hide notes) | BetterSessions | CallTimer | CopyUserURLs | CrashHandler |
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| BetterNotesBox (hide notes) | CrashHandler | FakeNitro | FixSpotifyEmbeds (5.69%) | ShowTimeouts |
-| ForceOwnerCrown | ImageZoom | MemberCount | MessageClickActions | SilentMessageToggle |
-| MessageLinkEmbeds | MutualGroupDMs | NoDevtoolsWarning | NoF1 | SpotifyCrack |
-| NoReplyMention | NoUnblockToJump | OpenInApp | PermissionsViewer | SpotifyShareCommands |
-| ViewerIcons | PinDMs | PlainFolderIcon | SearchReply | ValidUser |
+| Decor | FakeNitro | FavoriteEmojiFirst | FixSpotifyEmbeds (5.69%) | ForceOwnerCrown |
+| FriendSince | GameActivityToggle | ImageZoom | MemberCount | MutualGroupDMs |
+| NewGuildSettings | NoF1 | NoReplyMention | NoUnblockToJump | OpenInApp |
+| PermissionsViewer | petpet | PinDMs | PlainFolderIcon | SearchReply |
+| ShikiCodeblocks | ShowHiddenThings | SilentMessageToggle | SpotifyCrack | SpotifyShareCommands |
+| ValidUser | ViewIcons | Experiments | ClearURLs |  |
 
 
 ## 📃 Customization
 In the file "comfy.theme.css" you have many options that you can customize and make the theme look the way you like it.
 <br>
 The options are : 
-* Hidable Scrollbars
 * Better SpotifyControls seek bar
+* Hidable Scrollbars
 * Better User Buttons
+* Revert new icons style
+* Revert new font style
+* Account details grid
+* Better status picker
+* Better profiles
+* Revamped Windows Buttons
 * Hidable Message Box
-* Avatar/status/servers Roundness
 * Colors:
     * Server/channel list
     * Mention in chat
@@ -52,7 +58,7 @@ The options are :
     * SpotifyControls seek bar
     * Status
     * User popout
-    * Dark Theme (Light Theme not supported)
+    * Dark Theme
 * Hidable Discord logo
 <br>
 

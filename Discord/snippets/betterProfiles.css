@@ -90,7 +90,7 @@
 }
 
 .container__9f51c {
-  margin: 0 12px;
+  margin: 12px 12px 0;
   padding: 16px;
 }
 
@@ -100,12 +100,17 @@
 
 .section__62b44 > div,
 .mutualGuildsList__5e9f3,
-.mutualFriendsList__02caf,
-.container__9f51c,
-.userInfoText_b87307 {
+.mutualFriendsList__02caf {
   background: var(--profile-body-background-color);
   border-radius: 10px;
-  padding: 8px;
+  padding: 10px;
+}
+
+.container__9f51c,
+.userInfoText_b87307 {
+  background: var(--profile-gradient-primary-color);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /* Put @ before usernames */
@@ -122,6 +127,10 @@
 [class*=accountProfilePopoutWrapper-]>div>div>[class*=userPopoutOverlayBackground-]>div:nth-child(3),
 [class*=accountProfilePopoutWrapper-] div[role=separator] {
   display: none;
+}
+
+.body_bd4552 {
+  flex: 0 1 100%;
 }
 
 /* remove border in modal connections */
@@ -178,36 +187,6 @@
   margin-bottom: 16px;
 }
 
-.tabBarItem_ce14f3 {
-  border: none;
-  background: color-mix(
-    in srgb,
-    var(--profile-body-background-color) 40%,
-    transparent
-  );
-  padding: 2px 0;
-  width: 31%;
-  height: fit-content;
-  border-radius: 4px;
-  text-align: center;
-
-  &:hover {
-    background: color-mix(
-      in srgb,
-      var(--profile-body-background-color) 70%,
-      transparent
-    ) !important;
-  }
-
-  &.selected_a523ff {
-    background: color-mix(
-      in srgb,
-      var(--profile-body-background-color) 100%,
-      transparent
-    );
-  }
-}
-
 .item__48dda:hover,
 .selected_a523ff.item__48dda {
   border: none;
@@ -219,6 +198,14 @@
 
 .platformIcon_a2d873 {
   margin: 2px 2px;
+}
+
+.tabBarItem_ce14f3 {
+  border: 0;
+}
+
+.connectedAccountIcon_e85011 { 
+  border-radius: 25px;
 }
 
 .scroller__18a89 {
@@ -240,6 +227,44 @@
 .connectedAccountContainer__5972d:has(.connectedAccountOpenIcon__23b1a:hover) {
   background: var(--profile-body-divider-color);
 }
+
+/*
+* Snippet by @ukrioo
+* https://github.com/ukrioo
+*/
+/* Changes the look of the Connected Accounts on Discord Profiles, adds a background synced to the profile theme. */
+/*
+Head over to Settings > Accessibility > "Sync profile themes"
+And turn on the option.
+If your theme is mainly dark/light, change the text color accordingly.
+*/
+[class*="connectedAccountContainer_"] {
+  --CA-radius: 16px;
+  --CA-icon-color: white;
+  --CA-checkmark-color: rgba(0, 0, 0, 0.65);
+  --CA-background: var(--profile-gradient-secondary-color);
+  /* Alternatively, you can have var(--profile-gradient-primary-color), but it might blend in with the profile and not stand out. */
+}
+
+[class*="connectedAccountContainer_"] {
+  border: none;
+  background: var(--CA-background);
+  border-radius: var(--CA-radius);
+}
+
+[class*="connectedAccountContainer_"] [class*="connectedAccountOpenIcon_"],
+[class*="connectedAccountContainer_"] [class*="connectedAccountNameText_"] {
+  color: var(--CA-icon-color);
+}
+
+[class*="connectedAccountContainer_"] [class*="flowerStar_"] path {
+  fill: var(--CA-checkmark-color);
+}
+
+[class*="connectedAccountContainer_"] [class*="childContainer_"]>svg>path {
+  fill: var(--CA-icon-color);
+}
+/* *** */
 
 .flowerStarContainer__00f61.connectedAccountVerifiedIcon__103a6 > svg > path {
   fill: var(--profile-body-divider-color);

@@ -6,7 +6,7 @@
 
 <br>
 
-» [Socials](https://withkoji.com/@itsDavid)
+» [Socials](https://linktr.ee/itsDavid)
     ·
 [Big Rat](https://bigrat.monster/)
 <br><br>
