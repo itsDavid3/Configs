@@ -63,7 +63,7 @@ The options are :
 <br>
 
 
-⚠️ - Hidden notes box, permissions tab under the roles, folder icons, and member count are because of a plugin NOT THEME.
+⚠️ - Hidden notes box, permissions tab under the roles, folder icons, game activity button, and member count are because of a plugin NOT THEME.
 ![Desktop theme preview showing the colour and layout](https://github.com/itsDavid3/Configs/assets/58404459/201c24f6-f32f-48b1-84eb-f6ed2397c4f7)
 ![Desktop theme preview showing how the profile popout looks with and without nitro theme](https://github.com/itsDavid3/Configs/assets/58404459/1a5bd5f3-0357-4397-9382-e9df76fafa60)
 ![Desktop theme preview showing how the user popout looks](https://github.com/itsDavid3/Configs/assets/58404459/a3083a3b-acaa-46bb-8f20-4e94913d9171)
