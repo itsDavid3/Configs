@@ -772,7 +772,7 @@
 
 :root .unread__48cf4 {
   top: 50%;
-  left: 5px;
+  left: -2px;
   width: 6px;
   height: 6px;
   z-index: 1;
@@ -1592,6 +1592,11 @@
 }
 
 :root .closeButton__8177f {
+  border-radius: var(--avatar-radius);
+  transition: .2s !important;
+}
+
+:root .closeButton__8177f:hover {
   border-radius: 5px;
 }
 
