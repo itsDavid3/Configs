@@ -47,7 +47,6 @@
 
 
 .guilds__2b93a {
-  margin-bottom: 227px;
   box-sizing: border-box;
 }
 
@@ -62,7 +61,7 @@
   padding: 7px 0 0;
   gap: 8px;
   box-sizing: border-box;
-  margin-bottom: 0;
+  margin-bottom: 7px;
 }
 
 .container_debb33>.flex_f18b02 {
@@ -133,7 +132,7 @@
 }
 
 .guilds__2b93a:has(~ .base_c0676e .container_debb33 .flex_f18b02 .button__581d0:nth-of-type(4)) {
-  margin-bottom: calc(227px + 56px) !important;
+  margin-bottom: calc(235px + 56px) !important;
 }
 
 .accountProfilePopoutWrapper_d4887f {
