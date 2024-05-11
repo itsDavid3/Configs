@@ -2194,7 +2194,7 @@
 }
 
 :root .bottomControls__72d8d .centerButton__8316e {
-  border-radius: 7px;
+  border-radius: calc(var(--avatar-radius) + 10px);
 }
 
 :root .bottomControls__72d8d .colorable__4f530.primaryDark_ec74a7 {
@@ -2679,7 +2679,7 @@
 :root .avatarContainerMasked_ed6212,
 :root .appAvatar-2_lufo,
 :root .embedAuthorIcon_d3f927 {
-  border-radius: var(--avatar-radius);
+  border-radius: calc(var(--avatar-radius) + 10px);
 }
 
 :root .wrapper__9916c foreignObject {
@@ -3033,4 +3033,10 @@ button[aria-label="Send a gift"] {
 
 .modInfoItemContainer_fa4d6a .modInfoAction__5a4f4:hover {
   background-color: var(--background-tertiary);
+}
+
+[class*=iconGroup]:has([class*=hangStatusIcon], [d*='M13 3a1'], [class*=gameIcon]) {
+  display: flex;
+  position: absolute;
+  right: 101%;
 }
