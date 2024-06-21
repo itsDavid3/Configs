@@ -5,53 +5,53 @@
 * @version 1
 */
 
-.winButton_f17fb6:not(:last-child)>svg {
+.winButton_a934d8:not(:last-child)>svg {
   display: none;
 }
 
-.winButton_f17fb6:not(:last-child)::after {
+.winButton_a934d8:not(:last-child)::after {
   content: "";
   border-radius: 50px;
   pointer-events: fill;
 }
 
-.winButton_f17fb6:hover {
+.winButton_a934d8:hover {
   background-color: var(--background-tertiary);
 }
 
-.winButtonClose__6396d {
+.winButtonClose_a934d8 {
   margin-right: 5px;
 }
 
-.winButtonClose__6396d::after {
+.winButtonClose_a934d8::after {
   padding: 6px;
   background-image: url("https://i.imgur.com/WAbJScJ.png");
   background-size: 100%;
 }
 
-.winButtonClose__6396d:hover::after {
+.winButtonClose_a934d8:hover::after {
   background-image: url("https://i.imgur.com/ipwGE9a.png");
   background-size: 100%;
 }
 
-.winButtonMinMax_caf9c8:nth-child(3)::after {
+.winButtonMinMax_a934d8:nth-child(3)::after {
   background-color: #faa61a;
   padding: 5px;
 }
 
-.winButtonMinMax_caf9c8:nth-child(3):hover::after {
+.winButtonMinMax_a934d8:nth-child(3):hover::after {
   background-color: rgba(250, 168, 26, 0.8980392157);
 }
 
-.winButtonMinMax_caf9c8:last-child {
+.winButtonMinMax_a934d8:last-child {
   color: #43b581;
 }
 
-.winButtonMinMax_caf9c8:last-child:hover {
+.winButtonMinMax_a934d8:last-child:hover {
   color: rgba(67, 181, 130, 0.8901960784);
 }
 
-.winButtonMinMax_caf9c8:last-child rect {
+.winButtonMinMax_a934d8:last-child rect {
   height: 3px;
   rx: 2px;
 }
