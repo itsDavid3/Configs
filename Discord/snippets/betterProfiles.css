@@ -149,13 +149,13 @@
   margin-right: 10px;
 }
 
-:is(.userPopoutInner_c69a7b, .userInfoText_a24910) .blockquoteContainer_d6076c {
+:is(.userPopoutInner_c69a7b, .userInfoText_a24910) .blockquoteContainer_f8f345 {
   justify-content: center;
 }
 
-.userPopoutInner_c69a7b .markup_d6076c a,
-.userInfoText-2MFCmH.markup_d6076c a,
-.timestamp_d6076c {
+.userPopoutInner_c69a7b .markup_f8f345 a,
+.userInfoText-2MFCmH.markup_f8f345 a,
+.timestamp_f8f345 {
   background: var(--background-modifier-accent);
   color: var(--text-link);
   font-weight: bold;
@@ -164,9 +164,9 @@
 }
 
 :is(
-    .userPopoutInner_c69a7b .markup_d6076c a,
-    .userInfoText-2MFCmH.markup_d6076c a,
-    .timestamp_d6076c
+    .userPopoutInner_c69a7b .markup_f8f345 a,
+    .userInfoText-2MFCmH.markup_f8f345 a,
+    .timestamp_f8f345
   ):hover {
   background: var(--background-modifier-hover);
   text-decoration: none;
@@ -196,7 +196,7 @@
   background: var(--profile-body-divider-color);
 }
 
-.platformIcon_d5089b {
+.platformIcon_c1d9fd {
   margin: 2px 2px;
 }
 
@@ -204,7 +204,7 @@
   border: 0;
 }
 
-.connectedAccountIcon_f3eb60 { 
+.connectedAccountIcon_ab12c6 { 
   border-radius: 25px;
 }
 
@@ -220,11 +220,11 @@
   border-radius: 8px;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
   border-width: 2px;
 }
 
-.connectedAccountContainer_f3eb60:has(.connectedAccountOpenIcon_f3eb60:hover) {
+.connectedAccountContainer_ab12c6:has(.connectedAccountOpenIcon_ab12c6:hover) {
   background: var(--profile-body-divider-color);
 }
 
@@ -266,7 +266,7 @@ If your theme is mainly dark/light, change the text color accordingly.
 }
 /* *** */
 
-.flowerStarContainer_ff7d90.connectedAccountVerifiedIcon_f3eb60 > svg > path {
+.flowerStarContainer_c91f7d.connectedAccountVerifiedIcon_ab12c6 > svg > path {
   fill: var(--profile-body-divider-color);
   filter: brightness(1) contrast(2);
 }
@@ -300,8 +300,8 @@ If your theme is mainly dark/light, change the text color accordingly.
   text-align: center;
 }
 
-.activityUserPopoutV2_d5089b .headerText_d5089b,
-.activityProfileV2_d5089b .headerText_d5089b {
+.activityUserPopoutV2_c1d9fd .headerText_c1d9fd,
+.activityProfileV2_c1d9fd .headerText_c1d9fd {
   text-transform: none;
   font-size: 14px;
 }
@@ -345,6 +345,6 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
   background: var(--profile-body-background-color);
 }
 
-.vc-rdb-view .wrapper_ef319f {
+.vc-rdb-view .wrapper_f7e168 {
   scale: 0.825;
 }

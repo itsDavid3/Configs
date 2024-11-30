@@ -63,9 +63,9 @@
 
 /* ═══════『  🛵・ Old style icons 』═══════
 *   ➥ This module revert Discord's new icons to the older style used from 2019-2023.
-*   ➥ Comment the lines below if you want the new icons.
+*   ➥ Uncomment the line below if you want the old icons.
 */
-@import url("https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css");
+/* @import url("https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css"); */
 
 
 /* ═══════『  🅱️・ Old style font 』═══════
@@ -90,6 +90,7 @@
 */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 
+/* ⚠️ Better Status and Better Profiles currently don't do anything ⚠️*/
 
 /* ═══════『  😫・ Better Profiles 』═══════ 
 *   ➥ Made by @SEELE1306
@@ -111,7 +112,7 @@
 *   ➥ This hides the message box on profile popout.
 *   ➥ Comment the lines below if you want to return it.
 */
-.messageInputContainer_a93946, .lastSection__62986{
+.messageInputContainer_f2c0a8, .lastSection_d7a21f{
   display: none;
 }
 
@@ -238,7 +239,7 @@
   --activity-card-background: #101320;
   --input-background: #1e2233;
 }
-.theme-dark .theme-light:not(.root_a28985){
+.theme-dark .theme-light:not(.root_f9a4c9){
   --background-primary: #23283d;
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;

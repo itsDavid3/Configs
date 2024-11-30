@@ -1,30 +1,34 @@
-/* Hide annoying buttons (gift nitro and stickers) */
-button[aria-label="Send a gift"],
-button[aria-label="Open sticker picker"]
-{ display: none; }
-
 /* 
 * Hides the useless and ugly [+] next to categories.
 * (if u have chanel creation perms) 
 */
-:root .children_d18c7d 
+.children_a08117 > button[aria-label="Create Channel"]
 { display: none; }
+.addButton_a08117.forceVisible_a08117:hover
+{ display: block; }
+
 
 /* simple list hover animations (by @refact0r) */
-.wrapper__612a5 .link_ddbb36 /* channels */,
-.container_a48b21 /* members */,
-.channel__0aef5 /* dms */,
-.side_b4b3f6 .item__48dda /* settings */ 
+.wrapper_d8bfb3 .link_d8bfb3 /* channels */,
+.container_d808b0 /* members */,
+.channel_c91bad /* dms */,
+.side_a0 .item_a0 /* settings */ 
 { transition: margin-left 0.2s ease; }
 
-.wrapper__612a5:hover .link_ddbb36,
-.side_b4b3f6 .item__48dda:hover 
+.wrapper_d8bfb3:hover .link_d8bfb3,
+.side_a0 .item_a0:hover 
 { margin-left: 10px; }
 
-.container_a48b21:hover,
-.channel__0aef5:hover 
+.container_d808b0:hover,
+.channel_c91bad:hover 
 { margin-left: 18px; }
 
-/* Hides the annoying "NEW" badge for the shop */
-.textBadge_f05120 
-{ display: none; }
+
+/* Remove the Create Invite button from Channel Lists */
+[class^="iconVisibility_"] [aria-label="Create Invite"] {
+    display: none !important;
+}
+[class^="iconVisibility_"] [class^="channelInfo_"] {
+    display: flex !important;
+}
+

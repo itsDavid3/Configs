@@ -5,8 +5,6 @@
 * https://github.com/DaBluLite/css-snippets/tree/master/Omnibar
 */
 
-/* :root { --server-radius: 25px; } */
-
 /* Animations */
 :root .wrapper_c5f96a foreignObject {
   border-radius: var(--server-radius);
@@ -64,7 +62,7 @@
   margin-bottom: 7px;
 }
 
-.container_b2ca13>.flex_bba380 {
+.container_b2ca13>.flex_dc333f {
   flex-direction: column;
 }
 
@@ -117,7 +115,7 @@
   mask: none !important;
 }
 
-.container_b2ca13>.flex_bba380 {
+.container_b2ca13>.flex_dc333f {
   gap: 8px;
 }
 
@@ -127,11 +125,11 @@
   overflow: hidden;
 }
 
-.container_b2ca13:has(.flex_bba380 .button_dd4f85:nth-of-type(4)) {
+.container_b2ca13:has(.flex_dc333f .button_dd4f85:nth-of-type(4)) {
   height: calc(227px + 56px) !important;
 }
 
-.guilds_a4d4d9:has(~ .base_a4d4d9 .container_b2ca13 .flex_bba380 .button_dd4f85:nth-of-type(4)) {
+.guilds_a4d4d9:has(~ .base_a4d4d9 .container_b2ca13 .flex_dc333f .button_dd4f85:nth-of-type(4)) {
   margin-bottom: calc(235px + 56px) !important;
 }
 
