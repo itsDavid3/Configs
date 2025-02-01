@@ -129,7 +129,7 @@
   display: none;
 }
 
-.body_b9fccc {
+.body__24502 {
   flex: 0 1 100%;
 }
 
@@ -144,18 +144,18 @@
 }
 
 /* fix badge list height */
-.profileBadges_f89da9.container_b64375 {
+.profileBadges_f89da9.container__8061a {
   min-height: fit-content;
   margin-right: 10px;
 }
 
-:is(.userPopoutInner_c69a7b, .userInfoText_a24910) .blockquoteContainer_f8f345 {
+:is(.userPopoutInner_c69a7b, .userInfoText_a24910) .blockquoteContainer__75297 {
   justify-content: center;
 }
 
-.userPopoutInner_c69a7b .markup_f8f345 a,
-.userInfoText-2MFCmH.markup_f8f345 a,
-.timestamp_f8f345 {
+.userPopoutInner_c69a7b .markup__75297 a,
+.userInfoText-2MFCmH.markup__75297 a,
+.timestamp__75297 {
   background: var(--background-modifier-accent);
   color: var(--text-link);
   font-weight: bold;
@@ -164,9 +164,9 @@
 }
 
 :is(
-    .userPopoutInner_c69a7b .markup_f8f345 a,
-    .userInfoText-2MFCmH.markup_f8f345 a,
-    .timestamp_f8f345
+    .userPopoutInner_c69a7b .markup__75297 a,
+    .userInfoText-2MFCmH.markup__75297 a,
+    .timestamp__75297
   ):hover {
   background: var(--background-modifier-hover);
   text-decoration: none;
@@ -187,8 +187,8 @@
   margin-bottom: 16px;
 }
 
-.item_a0:hover,
-.selected_a0.item_a0 {
+.item_b3f026:hover,
+.selected_b3f026.item_b3f026 {
   border: none;
 }
 
@@ -196,7 +196,7 @@
   background: var(--profile-body-divider-color);
 }
 
-.platformIcon_c1d9fd {
+.platformIcon__2ef49 {
   margin: 2px 2px;
 }
 
@@ -204,7 +204,7 @@
   border: 0;
 }
 
-.connectedAccountIcon_ab12c6 { 
+.connectedAccountIcon_e6abe8 { 
   border-radius: 25px;
 }
 
@@ -220,11 +220,11 @@
   border-radius: 8px;
 }
 
-.connectedAccountContainer_ab12c6 {
+.connectedAccountContainer_e6abe8 {
   border-width: 2px;
 }
 
-.connectedAccountContainer_ab12c6:has(.connectedAccountOpenIcon_ab12c6:hover) {
+.connectedAccountContainer_e6abe8:has(.connectedAccountOpenIcon_e6abe8:hover) {
   background: var(--profile-body-divider-color);
 }
 
@@ -266,7 +266,7 @@ If your theme is mainly dark/light, change the text color accordingly.
 }
 /* *** */
 
-.flowerStarContainer_c91f7d.connectedAccountVerifiedIcon_ab12c6 > svg > path {
+.flowerStarContainer__3e3b0.connectedAccountVerifiedIcon_e6abe8 > svg > path {
   fill: var(--profile-body-divider-color);
   filter: brightness(1) contrast(2);
 }
@@ -276,7 +276,7 @@ If your theme is mainly dark/light, change the text color accordingly.
   border-color: transparent;
 }
 
-.userInfoSection_a24910 .eyebrow_dc00ef:last-child, /* Notes in profile modal */
+.userInfoSection_a24910 .eyebrow_cf4812:last-child, /* Notes in profile modal */
 .section_d7a21f:has(.roles_fa2f72:empty), /* no roles */
 [class*=userPanelInner_]::before
 .aboutMeGuildIcon_b05b69 /* Profile guild icon */ {
@@ -293,15 +293,15 @@ If your theme is mainly dark/light, change the text color accordingly.
   background: transparent;
 }
 
-:is(.section_d7a21f, .userInfoSection_a24910) .eyebrow_dc00ef {
+:is(.section_d7a21f, .userInfoSection_a24910) .eyebrow_cf4812 {
   text-transform: none;
   font-size: 14px;
   display: block;
   text-align: center;
 }
 
-.activityUserPopoutV2_c1d9fd .headerText_c1d9fd,
-.activityProfileV2_c1d9fd .headerText_c1d9fd {
+.activityUserPopoutV2_c1d9fd .headerText__2ef49,
+.activityProfileV2_c1d9fd .headerText__2ef49 {
   text-transform: none;
   font-size: 14px;
 }
@@ -315,16 +315,16 @@ If your theme is mainly dark/light, change the text color accordingly.
 }
 
 .profileMutuals_d2b491,
-.scrollerBase_c49869 > .section_d7a21f:nth-child(1) {
+.scrollerBase_d125d2 > .section_d7a21f:nth-child(1) {
   display: none;
 }
 
-#account .submenu_d90b3d {
+#account .submenu_c1e9c4 {
   background-color: var(--background-secondary-alt);
 }
 
 /* Fix profile in customization section */
-.profileCustomizationSection_bad983 {
+.profileCustomizationSection__44061 {
   & .section_d7a21f {
     &.container_c9ccf6 {
       justify-content: center;
@@ -345,6 +345,6 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
   background: var(--profile-body-background-color);
 }
 
-.vc-rdb-view .wrapper_f7e168 {
+.vc-rdb-view .wrapper_f7ecac {
   scale: 0.825;
 }
