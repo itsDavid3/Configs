@@ -55,11 +55,12 @@
   background: none !important;
   height: 227px;
   width: 72px;
-  flex-direction: column;
-  padding: 7px 0 0;
-  gap: 8px;
+  flex-direction: column-reverse;
+  padding: 0;
+  gap: 15px;
+  padding-top: 7px;
   box-sizing: border-box;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 .container__37e49>.flex__7c0ba {
@@ -140,4 +141,9 @@
 .avatar__37e49 > .avatarDecoration__44b0c {
   width: 70px;
   height: 60px;
+}
+
+
+:root .wrapper_ef3116 {
+  margin-bottom: 300px;
 }
